@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Welcome";
+}
+
+<h2>@ViewBag.WelcomeMsg</h2>
+<ul>
+@for(int i = 0; i < ViewBag.numTimes; i++)
+{
+    <li>Hello @ViewBag.name</li>
+}
+</ul>
